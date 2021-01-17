@@ -1,0 +1,19 @@
+Since the max budget is up to 20,000 USD then I could use more performant instance type for the DB as well as
+adding more instance to my EC2 for greater user request handling. For RDS I would scale vertically by upgrading
+the instance type from db.m5.16xlarge to db.m5.24xlarge and add 1 more instance to become 2 instances. For EC2
+I would increase to 10 instance (4 for web servers, 6 for application servers) and increase the instance storage
+from 20 GB to 100 GB. I would also change the payment type from Instance Saving Plans with partial upfront to
+Convertible Reserved Instances with no upfront. Why would I change the payment model? because using less reserved
+instance type allow me to be more flexible and accurate to predict cost/requirement in the future due to growing users.
+This could potentially futher reduce cost in the long run. After these upgrades, turns out I still have some more budget
+to be used. I experiment with RDS and turns out I could increase the database storage from 3 TB to 5 TB.
+
+RDS:
+- db.m5.16xlarge to db.m5.24xlarge
+- 1 instance to 2 instances
+- 3000 gb to 5000 gb storage
+
+EC2:
+- 4 to 10 instances
+- 20 gb to 100 gb storage
+- EC2 Instance Savings Plans (partial upfront) payment model Convertible Reserved Instances (no upfront) payment model
