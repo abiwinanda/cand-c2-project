@@ -4,4 +4,4 @@ change my resources payment method from on-demand to reserved instance. Assuming
 (which is 50,000 users) then I could be quiet confident to go for reserved instance. The two most expensive resources are RDS followed
 by EC2 with 4 instances. For RDS I changed the pricing model to Standard Reserved Instances with 1 year of reservation and no payment
 upfront. For EC2 instances I did the same as well but with partial upfront. With this payment model for RDS and EC2, I could get total
-cost of 6,346.24 USD per month which does not exceed 6,500 USD and at the same time use up all the given budget.
+cost of 6,379.32 USD per month which does not exceed 6,500 USD and at the same time use up all the given budget.
