@@ -25,3 +25,4 @@ These are some references that I used to complete the project:
 * https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function
 * https://github.com/rmortale/terraform-tutorial
 * https://upcloud.com/community/tutorials/terraform-variables/#:~:text=Terraform%20variables%20can%20be%20defined,open%20the%20file%20for%20edit.
+* https://aws.amazon.com/premiumsupport/knowledge-center/elastic-ip-charges/
