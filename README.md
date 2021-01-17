@@ -7,7 +7,7 @@ This repo is a submission for Udacity AWS Cloud Architect, Design, Provision and
 All screenshots or files of the project's tasks are stored into their respective `/Task_` folder.
 
 ```bash
- ___ Task_1
+.___ Task_1
 |   |___ screenshots.png
 |
 |___ Task_2
